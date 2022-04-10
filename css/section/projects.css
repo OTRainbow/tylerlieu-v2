@@ -1,0 +1,33 @@
+.projects-container {
+    padding: 100px 0px;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.project {
+    padding: 100px 0px;
+}
+
+.project > h1 {
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+.project > h2 {
+
+    margin: 0px;
+}
+
+.project > a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+    background-color: #0008;
+}
+
+.project > a:hover {
+    background-color: #0004;
+}

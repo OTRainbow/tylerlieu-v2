@@ -1,0 +1,45 @@
+header {
+    display: block;
+    padding-top: 20px;
+    font-size: 2em;
+    user-select: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+
+.header-hamburger {
+    display: none;
+    padding: 6px 11px;
+}
+
+.header-hamburger:hover {
+    background-color: #00000088;
+}
+
+.header-hamburger.active {
+    background-color: #00000088;
+}
+
+.header-nav > a {
+    padding: 0px 20px;
+}
+
+.header-nav > a:hover {
+    background-color: #00000088;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-hamburger {
+        display: initial;
+    }
+}

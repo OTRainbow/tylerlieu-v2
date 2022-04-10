@@ -1,0 +1,17 @@
+.navdrop {
+    display: none;
+    text-align: center;
+}
+
+.navdrop > a {
+    background-color: #00000088;
+    display: block;
+}
+
+.navdrop > a:hover {
+    background-color: #FFFFFF44;
+}
+
+.navdrop.active {
+    display: initial;
+}

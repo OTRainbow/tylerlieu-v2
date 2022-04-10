@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+
+    --main-bg-color: #000010;
+    --main-dark-blue: #00002080;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    background-image: url("../img/dark-geometric.png");
+    font-family: var(--main-font-family);
+    color: white;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(50px);}
+    to {opacity: 1; transform: translateY(0%);}
+}
